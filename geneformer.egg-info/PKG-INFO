@@ -1,0 +1,36 @@
+Metadata-Version: 2.2
+Name: geneformer
+Version: 0.1.0
+Summary: Geneformer is a transformer model pretrained                  on a large-scale corpus of single                  cell transcriptomes to enable context-aware                  predictions in settings with limited data in                  network biology.
+Author: Christina Theodoris
+Author-email: christina.theodoris@gladstone.ucsf.edu
+Requires-Python: >=3.10
+Requires-Dist: anndata
+Requires-Dist: datasets
+Requires-Dist: loompy
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: optuna
+Requires-Dist: optuna-integration
+Requires-Dist: packaging
+Requires-Dist: pandas
+Requires-Dist: peft
+Requires-Dist: pyarrow
+Requires-Dist: pytz
+Requires-Dist: ray
+Requires-Dist: scanpy
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: setuptools
+Requires-Dist: statsmodels
+Requires-Dist: tdigest
+Requires-Dist: tensorboard
+Requires-Dist: torch
+Requires-Dist: tqdm
+Requires-Dist: transformers
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
